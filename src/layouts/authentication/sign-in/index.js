@@ -64,13 +64,7 @@ function SignIn() {
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleSetRememberMe = () => setRememberMe(!rememberMe);
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false)
-      
-    }, 2000)
-  }, [loading]);
-
+  
   useEffect(() => {
     const fetchSchema = async () => {
       try {

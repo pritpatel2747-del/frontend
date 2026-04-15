@@ -53,12 +53,6 @@ function Cover() {
   const [errors, setErrors] = useState({});
 
   useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 2000)
-  }, [loading]);
-
-  useEffect(() => {
     const fetchSchema = async () => {
       try {
         console.log(`Fetching sign-up schema from: ${API_BASE_URL}/user-schema?type=signup`);

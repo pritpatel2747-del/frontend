@@ -1,0 +1,65 @@
+.role {
+    padding: 12px 6px !important;
+}
+
+.delete-dialogue {
+    background-color: rgb(226, 95, 95) !important;
+    color: white !important;
+}
+
+.send-invite-action {
+    background-color: #4d91eb !important;
+    color: aliceblue !important;
+}
+
+.send-invite {
+    background-color: #4d91eb !important;
+    color: aliceblue !important;
+}
+
+.send-invite:active {
+    background-color: #4d91eb !important;
+    color: aliceblue !important;
+}
+
+.send-invite:hover {
+    background-color: #4d91eb !important;
+    color: aliceblue !important;
+}
+
+
+.css-19jzl0j-MuiButtonBase-root-MuiButton-root:focus:not(:hover) {
+    background-color: #4d91eb !important;
+    color: aliceblue !important;
+}
+
+.table-head {
+    background-color: rgb(216, 216, 216) !important;
+}
+
+.css-tdxonj-MuiTableHead-root {
+    padding: 0px !important;
+}
+
+.table-head>th {
+    color: rgb(16, 16, 16) !important;
+}
+
+.cancel-dialogue {
+    background: #719bd3 !important;
+    color: aliceblue !important;
+}
+
+.cancel-invitation-dialogue {
+    background-color: #f19595 !important;
+    color: rgb(229, 243, 253) !important;
+}
+
+.cancel-invitation-dialogue:hover {
+    background: #e26969 !important;
+    color: aliceblue !important;
+}
+.cancel-invitation-dialogue:hover + .send-invite-action{
+    background: #87b8e7 !important;
+    color: aliceblue !important;
+}

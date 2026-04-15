@@ -1,0 +1,82 @@
+.accept {
+    background-color: rgb(103, 202, 103) !important;
+    color: white !important;
+}
+
+.reject {
+    background-color:#f19595 !important;
+    color: white !important;
+}
+
+.confirm {
+    background-color: rgb(66, 147, 228) !important;
+    color: white !important;
+}
+
+.invite-action {
+    width: 50% !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.expire-card {
+    width: 50% !important;
+}
+
+.expire-action {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.go-to-signin {
+    background-color: rgb(66, 147, 228) !important;
+    color: aliceblue !important;
+}
+
+.invitation-container {
+    width: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.invite-action {
+    width: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    margin-top: 22% !important;
+    margin-left: 8% !important;
+}
+
+.cancel-invitation-respond:hover {
+    background: #e26969 !important;
+    color: aliceblue !important;
+}
+
+.confirmation-dialogue {
+    margin-left: 10% !important;
+}
+
+.cancel-invitation-respond {
+    background-color: #f19595 !important;
+    color: rgb(229, 243, 253) !important;
+}
+
+.cancel-invitation-respond:hover+.confirm {
+    background: #87b8e7 !important;
+    color: aliceblue !important;
+}
+.reject:hover{
+    background-color:  #ea0e0e !important;
+}
+.reject:hover + .accept {
+    background-color: aqua !important;  
+}   
+.cross-logic{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.cross{
+    margin-top: 2%;
+    margin-right: 2%;
+     color: black !important;
+}

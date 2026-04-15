@@ -41,7 +41,7 @@ self.addEventListener("notificationclick", (event) => {
   console.log("[SW] Notification clicked:", event.notification);
 
   event.notification.close();
-
+  
   // Get data from notification
   const data = event.notification.data || {};
   const redirect = data.redirect || "/";
